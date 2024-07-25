@@ -1,0 +1,143 @@
+/*** portfolio brandguide ***/
+
+/* palette */
+:root {
+  --black: #000;
+  --blue: #484b9f;
+  --white: #fff;
+  --red: #cd2027;
+  --gray-light: #bec0c2;
+  --gray-dark: #231f20;
+}
+/* global */
+body {
+  padding: 1em;
+  background-color: var(--white);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+a:hover {
+		text-decoration: underline;
+}
+
+/* headers */
+h1,
+h2,
+h3,
+h4 {
+  color: var(--black);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+.text-2 {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.text-3 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* images */
+.social-media .thumbnail {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.hero {
+  width: 100%;
+  max-width: 1800px;
+  max-height: 680px;
+}
+
+button {
+  background: var(--white);
+  border: 2px solid var(--black);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 1em;
+}
+
+button:hover {
+  background: var(--black);
+  color: var(--white);
+}
+
+button.inactive {
+  background: var(--gray-light);
+  color: var(--white);
+}
+
+/* custom elements */
+.header {
+    border-bottom: 1px solid var(--gray-dark);
+    margin-bottom: 1em;
+    padding: 10px;
+    box-shadow: 0px 11px 13px -8px var(--gray-dark)
+}
+
+#services ul {
+    display: inline-flex; 
+    width: 400px;
+    justify-content: space-around;
+}
+
+#services ul > li {
+    padding: 1em;
+}
+
+#background > div {
+    display: flex;
+}
+
+#experience > div {
+    text-align: center;
+}
+
+#experience table {
+    display: inline-table;
+}
+
+#otherSkills > div {
+    display: flex;
+}
+
+#contactForm {
+   display: flex;flex-direction: column;
+}
+
+.social-media {
+    display: inline-flex; 
+    float: right; 
+    width: 400px; 
+    justify-content: space-around;
+}

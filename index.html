@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <meta charset="UTF-8">
+    <title>Carlos's portfolio</title>
+    <meta name="keywords" content="frontend, backend, full, stack, resume, developer">
+    <meta name="description" content="Carlos's Suarez portfolio offering professional IT Services in different applied fields">
+  </head>
+
+  <body>
+    <!-- header -->
+    <header>
+        <nav class="header">
+            <img src="./images/logo.svg" width="80" alt="Portfolio Logo">
+            <ul style="display: inline-flex; float: right; width: 400px; justify-content: space-around;">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#background">BG</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#others">Others</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- hero section -->
+    <section id="hero">
+        <div style="position: relative;">
+            <img class="hero" src="./images/hero.webp" width="100%" alt="Hero image">
+            <p><a href="https://commons.wikimedia.org/wiki/File:Public_Domain_Map_logo.svg">OpenStreetMap U.S.</a>, Public domain, via Wikimedia Commons</p>
+            <div style="position: absolute; top: 20%; right: 10%; background: rgba(255, 255, 255, 0.7); padding: 10px;">
+                <h1>If you can image it, I can do it</h1>
+                <p>Hi, I'm Carlos Suarez, experienced professional in IT and I would like to take part on your work purpose</p>
+                <button >Let's connect</button>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- services cards section -->
+    <section id="services">
+        <div>
+            <ul >
+                <li>
+                    <a href="#frontend" class="card">
+                        <h3>Frontend</h3>
+                        <img src="./images/frontend.jpg" alt="frontend image" width="400">
+                        <a href="https://commons.wikimedia.org/wiki/File:Public_Domain_Map_logo.svg">Виталий Смолыгин</a>, Public domain, via public domain files
+                        <!-- <p>From 2011 performed the first application all based in JavaScript/jQuery, until Today working with Typescript, Angular and more</p> -->
+                        <p>If you need to stand up your clients experience, definitely I can help</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#backend" class="card">
+                        <h3>Backend</h3>
+                        <img src="./images/backend.jpg" alt="Backend" width="400">
+                        <a href="http://res.publicdomainfiles.com/pdf_view/133/13971053415733.jpg">Виталий Смолыгин</a>, Public domain, via public domain files
+                        <p>If you need to provide your clients with cross-platform services, I'm your guy</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="ai" class="card">
+                        <h3>A.I.</h3>
+                        <img src="./images/ai.png" alt="Artificial Inteligence" width="400">
+                        <a href="https://opengameart.org/content/public-domain-backgrounds">madameberry</a>, Public domain, via opengameart.org
+                        <p>Try something new?, let's explore options together with tools that ease the work</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- educational background section -->
+    <section id="background">
+        <div>
+            <img src="./images/bgeducation.jpg" width="300" alt="Background education">
+            <p><a href="https://www.istockphoto.com/photo/mortar-and-degree-gm891698738-246902827?searchscope=image%2Cfilm">Michael Burrell</a>, Public domain, via istockphoto.com</p>
+            <div>
+                <h2>Educational Background</h2>
+                <p>
+                    <ol>
+                        <li>Diploma major in <span>Interactive Development & Design</span><a href="#know-more">Know more</a></li>
+                        <li>Bachelor in Software Engineering with emphasis in <span>inteligent systems</span><a href="#know-more">Know more</a></li>
+                        <li>Artifitial inteligent certificates<a href="#know-more">Know more</a></li>
+                    </ol>
+                </p>
+            </div>
+            
+        </div>
+    </section>
+    
+    <!-- related experience -->
+    <section id="experience">
+        <div>
+            <img src="./images/experience.jpg" width="300" alt="experience">
+            <p><a href="https://www.publicdomainpictures.net/en/view-image.php?image=150549&picture=desktop-computer-pc">Axelle B U.S.</a>, Public domain, via publicdomainpictures.net</p>
+            <h2>Related Experience</h2>
+            <table>
+                <caption>Recent projects</caption>
+                <thead>
+                    <tr>
+                        <th>Project</th>
+                        <th>Technologies stack</th>
+                        <th>Dates</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Omni</th>
+                        <td>Angular 13, Dotnet Framework 5, Kafka</td>
+                        <td>2024 - Present</td>
+                    </tr>
+                    <tr>
+                        <th>Exscribe</th>
+                        <td>Angular 10, Dotnet Framework 4.5, Cosmo</td>
+                        <td>2018 - 2024</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><a href="#know-more">Know more</a></p>
+        </div>
+    </section>
+    <section id="otherSkills">
+        <div>
+            <div>
+                <h2>There is more than the surface</h2>
+                <p>Nothing is learned in vain, so if you are curious about my other experience I invite you to <a href="#otherSkills">know more</a></p>
+            </div>
+            <img width="400" src="images/other-skills.jpg" alt="Other skills">
+            <p><a href="https://www.publicdomainpictures.net/en/view-image.php?image=165069&picture=soldiers-boarding-at-sunset">Jean Beaufort</a>, Public domain, via publicdomainpictures.net/</p>
+        </div>
+    </section>
+    <section id="contactUs">
+        <div>
+            <form id="contactForm" onsubmit="event.preventDefault(); window.confirm('thanks for contacting ')">
+                <label for="contactName">Name</label>
+                <input type="text" name="contactName" id="contactName">
+                <label for="contactPhone">Phone</label>
+                <input type="text" name="contactPhone" id="contactPhone">
+                <label for="contactMesasge"></label>
+                <textarea name="contactMesasge" id="" cols="30" rows="10"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <table>
+            <caption>Contact me</caption>
+            <tr>
+                <td>
+                    <img src="./images/logo.svg" width="40" alt="footer logo image">
+                </td>
+                <td><p>Join to this fantastic experience of creating valuable products</p></td>
+                <td>
+                    <ul class="social-media" style="display: inline-flex; float: right; width: 400px; justify-content: space-around;">
+                        <li class="thumbnail"><a href="https://www.facebook.com/carlosa.suare" class="social"><i><img src="./images/facebook.png" width="30" alt="Facebook"></i></a><a href="https://www.freepik.com/icons/facebook">Icon by Freepik</a></li>
+                        <li class="thumbnail"><a href="https://www.linkedin.com/in/carlosasuarezm/" class="social"><i><img src="./images/linkedin.png" width="30" alt="Linked In"></i></a><a href="https://www.freepik.com/search">Icon by riajulislam</a></li>
+                        <li class="thumbnail"><a href="https://github.com/sessions/verified-device" class="social"><i><img src="./images/github.png" width="30" alt="Github"></i></a><a href="https://www.freepik.com/search">Icon by Freepik</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "portfolio",
+  "description": "Web portfolio intended to show the e-resume, brochure and hobbie likes",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosa-suarez/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "carlossuarez"
+  ],
+  "author": "Carlos Suarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosa-suarez/portfolio/issues"
+  },
+  "homepage": "https://github.com/carlosa-suarez/portfolio#readme"
+}
